@@ -1,0 +1,9 @@
+.my-parent-span {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .my-child-span {
+    font-size: 1.1em;
+    margin-right: 5px;
+  }

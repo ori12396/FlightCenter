@@ -1,0 +1,104 @@
+.paycontainer {
+  margin-top: 150px;
+  text-align: center;
+  justify-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bubble {
+  position: relative;
+  display: inline-block;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.input-label {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color:black
+  justify-content:bold;
+}
+
+.input-field {
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: none;
+  width: 100%;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #00aeef;
+  box-shadow: 0 0 5px #00aeef;
+}
+.payment-form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background-color: #f7f7f7;
+}
+
+.payment-form .form-group {
+  margin-bottom: 30px;
+}
+
+.payment-form .input-label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.payment-form .input-field {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.payment-form .paypal-button-container {
+  margin-bottom: 30px;
+}
+
+.payment-form button[type="button"] {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+}
+
+.payment-form button[type="button"]:hover {
+  background-color: #555;
+}
+.paypal-button-container {
+  margin-top:50px
+}
+.error-container {
+  margin-top: 10px;
+}
+
+.error-message {
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  width: 100%;
+  color: red;
+  
+}
+.input-error-container {
+  position: relative;
+}

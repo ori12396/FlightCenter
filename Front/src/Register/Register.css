@@ -1,0 +1,40 @@
+.central-frame {
+    background-color: #332e2e;
+    height: auto;
+    width: 800px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.field-label {
+    color: white;
+}
+
+.headline {
+    color: white;
+    padding: 10px;
+    position: center;
+    font-size: 170%;
+}
+
+.log-in-text {
+    color: #b7b3b3;
+}
+
+.validation-label {
+    color: red;
+}
+
+.succesfull-register {
+  color: lime;
+}
+
+.blue-link {
+  color: cyan;
+}
