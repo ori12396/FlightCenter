@@ -44,8 +44,8 @@ def my_first_my_second():
 @app.route('/paypal/initiate-payment', methods=['POST'])
 def initiate_paypal_payment():
     try:
-        client_id = "AeqyMHi_ZJoeof8Nbud_2REfWLQhyZERgUywd2m-b--x7MPRPp-gWKccDD8ukn3tSNPbFQJ0SQ2fBFW9"
-        client_secret = "EHb0VbTHggcAny4eNfIlRLKeGNuDyj3Vy_-QbW0InOnhEIdVUAU9bzSTSwy7Vrt5tQzMVtgkbo9qvBsu"
+        client_id = ""
+        client_secret = ""
         send_to = request.json.get('send_to')
         send_to2 = request.json.get('send_to2')
         price = request.json.get('price')
